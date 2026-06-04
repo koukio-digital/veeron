@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Veeron Technologies</title>
+    <!-- SEO Optimization -->
+    <meta name="description" content="Get in touch with Veeron Technologies. Submit your IT requirements, ERP questions, mobile app plans, or digital marketing goals to our advisory group.">
+    <meta name="keywords" content="Veeron Technologies contact, hire software developers, ERP consultant, Delhi IT agency, Google sheets contact form">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Contact Us | Veeron Technologies">
+    <meta property="og:description" content="Reach our enterprise software developers. Submit your project requirements using our validated contact form.">
+    <meta property="og:image" content="logo.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.jpeg" type="image/jpeg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS Styling (Premium Glassmorphic and Accenture-Inspired Theme) -->
+    <style>
+        :root {
+            --bg-main: #07080d;
+            --bg-sec: #0f1017;
+            --bg-glass: rgba(255, 255, 255, 0.03);
+            --bg-glass-hover: rgba(255, 255, 255, 0.06);
+            --border-glass: rgba(255, 255, 255, 0.08);
+            --border-glass-hover: rgba(255, 255, 255, 0.2);
+            --primary: #6366f1;
+            --secondary: #06b6d4;
+            --accent-grad: linear-gradient(135deg, #6366f1 0%, #06b6d4 100%);
+            --accent-grad-hover: linear-gradient(135deg, #4f46e5 0%, #0891b2 100%);
+            --text-primary: #f3f4f6;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+            --font-primary: 'Inter', sans-serif;
+            --font-heading: 'Outfit', sans-serif;
+            --shadow-neon: 0 0 25px rgba(99, 102, 241, 0.35);
+            --shadow-neon-cyan: 0 0 25px rgba(6, 182, 212, 0.35);
+            --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            --border-radius: 12px;
+        }
+
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            background-color: var(--bg-main);
+            color: var(--text-primary);
+            font-family: var(--font-primary);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--bg-main);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--border-glass);
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--primary);
+        }
+
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-heading);
+            color: #ffffff;
+            font-weight: 700;
+        }
+
+        p {
+            color: var(--text-secondary);
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: var(--transition);
+        }
+
+        /* Buttons styling */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.85rem 2rem;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: var(--transition);
+            font-family: var(--font-heading);
+            gap: 0.5rem;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: #ffffff;
+            border: 1px solid transparent;
+        }
+
+        .btn-primary:hover {
+            background-color: #4f46e5;
+            box-shadow: var(--shadow-neon);
+            transform: translateY(-2px);
+        }
+
+        .btn-gradient {
+            background: var(--accent-grad);
+            color: #ffffff;
+            border: none;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .btn-gradient::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--accent-grad-hover);
+            z-index: -1;
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .btn-gradient:hover::before {
+            opacity: 1;
+        }
+
+        .btn-gradient:hover {
+            box-shadow: var(--shadow-neon);
+            transform: translateY(-2px);
+        }
+
+        .badge {
+            background: rgba(99, 102, 241, 0.1);
+            color: var(--primary);
+            border: 1px solid rgba(99, 102, 241, 0.25);
+            padding: 0.35rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: inline-block;
+            margin-bottom: 1rem;
+            font-family: var(--font-heading);
+        }
+
+        /* Glass Card Style */
+        .glass-card {
+            background: var(--bg-glass);
+            border: 1px solid var(--border-glass);
+            border-radius: var(--border-radius);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            padding: 2.5rem;
+            transition: var(--transition);
+        }
+
+        /* Page loader removed — simplified pages without initial overlay */
+
+        /* Navigation Bar */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 1.25rem 0;
+            transition: var(--transition);
+            background: transparent;
+            border-bottom: 1px solid transparent;
+        }
+
+        .navbar.scrolled {
+            padding: 0.85rem 0;
+            background: rgba(7, 8, 13, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-glass);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .nav-container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1.5rem;
+            font-family: var(--font-heading);
+            font-weight: 800;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-logo img {
+            height: 38px;
+            width: auto;
+            object-fit: contain;
+        }
+
+        .nav-logo span {
+            background: var(--accent-grad);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            gap: 2.25rem;
+        }
+
+        .nav-links a {
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            position: relative;
+            padding: 0.5rem 0;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: #ffffff;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent-grad);
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .nav-btn {
+            padding: 0.6rem 1.5rem !important;
+            border-radius: 20px;
+            font-size: 0.9rem !important;
+        }
+
+        .nav-btn::after {
+            display: none !important;
+        }
+
+        .nav-toggle {
+            display: none;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 26px;
+            height: 18px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            z-index: 1001;
+        }
+
+        .nav-toggle .bar {
+            height: 2px;
+            width: 100%;
+            background-color: var(--text-primary);
+            border-radius: 10px;
+            transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+        }
+
+        .nav-toggle.open .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+
+        .nav-toggle.open .bar:nth-child(2) {
+            opacity: 0;
+        }
+
+        .nav-toggle.open .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+
+        /* Page Banner Header (40vh) */
+        .page-header-banner {
+            position: relative;
+            height: 45vh;
+            width: 100%;
+            background: linear-gradient(rgba(7, 8, 13, 0.6), rgba(7, 8, 13, 0.9)), url('https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=1920&q=80') center center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-bottom: 1px solid var(--border-glass);
+        }
+
+        .page-header-banner h1 {
+            font-size: 3.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #ffffff 0%, #9ca3af 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .page-header-banner p {
+            font-size: 1.15rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Layout */
+        .section-padding {
+            padding: 7.5rem 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 4rem;
+            align-items: flex-start;
+        }
+
+        /* Contact Details & Map */
+        .contact-details-col h2 {
+            font-size: 2.25rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact-details-col > p {
+            font-size: 1.05rem;
+            margin-bottom: 2rem;
+        }
+
+        .contact-info-list {
+            list-style: none;
+            margin-bottom: 2.5rem;
+        }
+
+        .contact-info-item {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-info-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: rgba(99, 102, 241, 0.1);
+            border: 1px solid rgba(99, 102, 241, 0.25);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary);
+            font-size: 1.25rem;
+            flex-shrink: 0;
+        }
+
+        .contact-info-text h4 {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+            margin-bottom: 0.1rem;
+        }
+
+        .contact-info-text p {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .map-box {
+            position: relative;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            border: 1px solid var(--border-glass);
+            height: 330px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+        }
+
+        .map-box iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+            filter: grayscale(1) invert(0.92) contrast(1.1);
+        }
+
+        /* Contact Form CSS styling */
+        .contact-form-card {
+            border: 1px solid var(--border-glass-hover);
+        }
+
+        .form-header {
+            margin-bottom: 2rem;
+        }
+
+        .form-header h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .form-group {
+            position: relative;
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+            font-family: var(--font-heading);
+        }
+
+        .form-control {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border-glass);
+            border-radius: 8px;
+            padding: 0.8rem 1.2rem;
+            font-size: 1rem;
+            color: #ffffff;
+            font-family: var(--font-primary);
+            transition: var(--transition);
+        }
+
+        .form-control:focus {
+            background: rgba(255, 255, 255, 0.04);
+            border-color: var(--primary);
+            box-shadow: 0 0 10px rgba(99, 102, 241, 0.2);
+        }
+
+        select.form-control option {
+            background-color: var(--bg-sec);
+            color: var(--text-primary);
+        }
+
+        textarea.form-control {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .validation-error {
+            color: #ef4444;
+            font-size: 0.8rem;
+            font-weight: 500;
+            margin-top: 0.35rem;
+            display: none;
+        }
+
+        .form-group.invalid .form-control {
+            border-color: #ef4444;
+            box-shadow: 0 0 10px rgba(239, 68, 68, 0.25);
+        }
+
+        .form-group.invalid .validation-error {
+            display: block;
+        }
+
+        /* Success & Error Popup Alert Modal */
+        .alert-modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(7, 8, 13, 0.85);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            z-index: 1200;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+        }
+
+        .alert-modal-overlay.open {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .alert-modal-box {
+            max-width: 450px;
+            width: 90%;
+            background: rgba(15, 16, 23, 0.95);
+            border: 1px solid var(--border-glass-hover);
+            box-shadow: 0 25px 50px rgba(0,0,0,0.6);
+            transform: scale(0.9);
+            transition: var(--transition);
+            text-align: center;
+            padding: 3rem;
+        }
+
+        .alert-modal-overlay.open .alert-modal-box {
+            transform: scale(1);
+        }
+
+        .alert-modal-icon {
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .alert-modal-icon.success {
+            color: #10b981;
+        }
+
+        .alert-modal-icon.error {
+            color: #ef4444;
+        }
+
+        .alert-modal-box h3 {
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .alert-modal-box p {
+            font-size: 1.05rem;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        /* Premium Footer */
+        .footer {
+            background-color: #050609;
+            border-top: 1px solid var(--border-glass);
+            padding-top: 5rem;
+            padding-bottom: 2rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 0.8fr 0.8fr 1.2fr;
+            gap: 3rem;
+            margin-bottom: 4rem;
+        }
+
+        .footer-logo-col img {
+            height: 40px;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-logo-col p {
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 0.85rem;
+        }
+
+        .social-link {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            background: var(--bg-glass);
+            border: 1px solid var(--border-glass);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-secondary);
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+
+        .social-link:hover {
+            background: var(--accent-grad);
+            border-color: transparent;
+            color: #ffffff;
+            box-shadow: var(--shadow-neon);
+            transform: translateY(-3px);
+        }
+
+        .footer-col h4 {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+
+        .footer-col h4::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 40px;
+            height: 2px;
+            background: var(--accent-grad);
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-links a {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .footer-links a:hover {
+            color: #ffffff;
+            padding-left: 5px;
+        }
+
+        .newsletter-desc {
+            font-size: 0.95rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .newsletter-form {
+            display: flex;
+            position: relative;
+            border-radius: 30px;
+            overflow: hidden;
+            border: 1px solid var(--border-glass);
+        }
+
+        .newsletter-form input {
+            width: 100%;
+            padding: 0.8rem 1.5rem;
+            background: rgba(255,255,255,0.02);
+            border: none;
+            color: #ffffff;
+            font-size: 0.9rem;
+        }
+
+        .newsletter-form button {
+            background: var(--accent-grad);
+            color: #ffffff;
+            border: none;
+            padding: 0 1.5rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .newsletter-form button:hover {
+            background: var(--accent-grad-hover);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid var(--border-glass);
+            padding-top: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .footer-bottom p {
+            font-size: 0.9rem;
+        }
+
+        .footer-bottom-links {
+            display: flex;
+            gap: 1.5rem;
+            list-style: none;
+        }
+
+        .footer-bottom-links a {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .footer-bottom-links a:hover {
+            color: #ffffff;
+        }
+
+        /* Widgets: WhatsApp & Scroll To Top */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 2rem;
+            left: 2rem;
+            width: 60px;
+            height: 60px;
+            background-color: #25d366;
+            color: #ffffff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.2rem;
+            box-shadow: 0 5px 20px rgba(37, 211, 102, 0.4);
+            z-index: 999;
+            transition: var(--transition);
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1) rotate(5deg);
+            box-shadow: 0 8px 25px rgba(37, 211, 102, 0.6);
+        }
+
+        .whatsapp-pulse {
+            position: absolute;
+            inset: 0;
+            border-radius: 50%;
+            border: 2px solid #25d366;
+            animation: pulse 2s linear infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 1; }
+            100% { transform: scale(1.4); opacity: 0; }
+        }
+
+        .scroll-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: var(--bg-glass);
+            border: 1px solid var(--border-glass);
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 999;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+        }
+
+        .scroll-top.show {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .scroll-top:hover {
+            background: var(--accent-grad);
+            border-color: transparent;
+            box-shadow: var(--shadow-neon);
+            transform: translateY(-3px);
+        }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 992px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+                gap: 4rem;
+            }
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+            .nav-toggle {
+                display: flex;
+            }
+            .nav-links {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 300px;
+                height: 100vh;
+                background: rgba(10, 11, 16, 0.98);
+                backdrop-filter: blur(20px);
+                -webkit-backdrop-filter: blur(20px);
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+                transition: right 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+                box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+                border-left: 1px solid var(--border-glass);
+            }
+            .nav-links.open {
+                right: 0;
+            }
+            .page-header-banner h1 {
+                font-size: 2.75rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .section-padding {
+                padding: 5rem 0;
+            }
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .page-header-banner h1 {
+                font-size: 2.25rem;
+            }
+            .whatsapp-float {
+                width: 50px;
+                height: 50px;
+                font-size: 1.8rem;
+                bottom: 1.5rem;
+                left: 1.5rem;
+            }
+            .scroll-top {
+                width: 45px;
+                height: 45px;
+                bottom: 1.5rem;
+                right: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Page Loading Animation removed -->
+
+    <!-- Sticky Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="logo.png" alt="Veeron Technologies Logo">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="teams.html">Team</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="contact.html" class="btn btn-primary nav-btn">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header Banner (Accenture Style Header) -->
+    <header class="page-header-banner">
+        <div>
+            <h1>Connect With Us</h1>
+            <p>Connect with our engineering consulting team to outline technical structures, milestones, and price parameters.</p>
+        </div>
+    </header>
+
+    <!-- Contact Main Layout -->
+    <section class="section-padding contact-main-section">
+        <div class="container">
+            <div class="grid-2">
+                <!-- Left Column: Info & Map -->
+                <div class="contact-details-col">
+                    <span class="badge">Contact </span>
+                    <h2>Let's build your enterprise assets.</h2>
+                    <p>Our solutions advisory group coordinates response times under 24 hours to review submitted requirements sheets.</p>
+                    
+                    <ul class="contact-info-list">
+                        <!-- Name -->
+                        <li class="contact-info-item">
+                            <div class="contact-info-icon"><i class="fa-solid fa-building"></i></div>
+                            <div class="contact-info-text">
+                                <h4>Company Name</h4>
+                                <p>Veeron Technologies</p>
+                            </div>
+                        </li>
+                        <!-- Phone -->
+                        <li class="contact-info-item">
+                            <div class="contact-info-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="contact-info-text">
+                                <h4> Phone </h4>
+                                <p>+91 7903949807</p>
+                            </div>
+                        </li>
+                        <!-- Email -->
+                        <li class="contact-info-item">
+                            <div class="contact-info-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="contact-info-text">
+                                <h4>Corporate Email</h4>
+                                <p>busineees@veerontechnologies.com</p>
+                            </div>
+                        </li>
+                        <!-- Office -->
+                        <li class="contact-info-item">
+                            <div class="contact-info-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                            <div class="contact-info-text">
+                                <h4>Headquarters Address</h4>
+                                <p>Mathiya Keshariya, EAST CHAMPARAN, BIHAR 845424</p>
+                            </div>
+                        </li>
+                        <!-- Hours -->
+                        <li class="contact-info-item">
+                            <div class="contact-info-icon"><i class="fa-solid fa-clock"></i></div>
+                            <div class="contact-info-text">
+                                <h4>Business Consultation Hours</h4>
+                                <p>Monday - Saturday: 9:00 AM - 6:30 PM</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="map-box">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3575.7671191468744!2d84.8984972!3d26.334039399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39932b87290a371d%3A0x42a7d5c1857257a3!2sK.S.R.N.S%20Degree%20College%2C%20Mathiya%2C%20Kesariya!5e0!3m2!1sen!2sin!4v1780555179085!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+
+                <!-- Right Column: Validated Contact Form -->
+                <div class="glass-card contact-form-card">
+                    <div class="form-header">
+                        <h3>Send Requirement </h3>
+                        <p style="font-size: 0.9rem;">Fill out all inputs to launch system scoping requests.</p>
+                    </div>
+
+                    <form id="contactForm" novalidate>
+                        <!-- Full Name -->
+                        <div class="form-group" id="groupName">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" class="form-control" placeholder="" required autocomplete="name">
+                            <div class="validation-error">Full Name must contain at least 3 characters.</div>
+                        </div>
+
+                        <!-- Mobile Number -->
+                        <div class="form-group" id="groupMobile">
+                            <label for="mobileNumber">Mobile Number</label>
+                            <input type="tel" id="mobileNumber" class="form-control" placeholder="9876543210" required autocomplete="tel">
+                            <div class="validation-error">Please enter a valid 10-digit mobile number.</div>
+                        </div>
+
+                        <!-- Email Address -->
+                        <div class="form-group" id="groupEmail">
+                            <label for="emailAddress">Email Address</label>
+                            <input type="email" id="emailAddress" class="form-control" placeholder="person@gmail.com" required autocomplete="email">
+                            <div class="validation-error">Please enter a valid email address.</div>
+                        </div>
+
+                        <!-- Business Name -->
+                        <div class="form-group" id="groupCompany">
+                            <label for="companyName">Business / Company Name</label>
+                            <input type="text" id="companyName" class="form-control" placeholder="............." required autocomplete="organization">
+                            <div class="validation-error">Company Name is required.</div>
+                        </div>
+
+                        <!-- Contact For / Service Type Select -->
+                        <div class="form-group" id="groupContactFor">
+                            <label for="contactFor">Contact For / Service Interest</label>
+                            <div style="position: relative;">
+                                <select id="contactFor" class="form-control" style="background: rgba(255, 255, 255, 0.02); border: 1px solid var(--border-glass); border-radius: 8px; color: #ffffff; padding: 0.8rem 1.2rem; cursor: pointer; appearance: none; -webkit-appearance: none; -moz-appearance: none; width: 100%;" required>
+                                    <option value="" disabled selected>Select service interest...</option>
+                                    <option value="Custom Software Development">Custom Software Development</option>
+                                    <option value="Dynamic Website / Portfolio Website">Dynamic Website / Portfolio Website</option>
+                                    <option value="App Development">App Development</option>
+                                    <option value="Billing Software for Enterprise">Billing Software for Enterprise</option>
+                                    <option value="Robotix and IoT Lab Setup">Robotix and IoT Lab Setup</option>
+                                </select>
+                                <i class="fa-solid fa-chevron-down" style="position: absolute; right: 1.2rem; top: 50%; transform: translateY(-50%); color: var(--text-secondary); pointer-events: none;"></i>
+                            </div>
+                            <div class="validation-error">Please select a service option.</div>
+                        </div>
+
+                        <!-- Message -->
+                        <div class="form-group" id="groupMessage">
+                            <label for="messageText">Detailed Project Requirements</label>
+                            <textarea id="messageText" class="form-control" placeholder="Please describe features, desired timeline, or active services needed..." required></textarea>
+                            <div class="validation-error">Message cannot be empty.</div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" id="submitBtn" class="btn btn-gradient" style="width: 100%;">
+                            <span>Submit Request</span> <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popup Alert Modals -->
+    <div class="alert-modal-overlay" id="alertModal" onclick="closeAlertModalOverlay(event)">
+        <div class="glass-card alert-modal-box">
+            <div class="alert-modal-icon" id="alertIcon"></div>
+            <h3 id="alertTitle">Alert Title</h3>
+            <p id="alertDescription">Alert description text content.</p>
+            <button class="btn btn-gradient" onclick="closeAlertModal()">Dismiss</button>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Col 1 -->
+                <div class="footer-logo-col">
+                    <a href="index.html" class="nav-logo" style="margin-bottom: 1.5rem; display: inline-flex;">
+                        <img src="logo.png" alt="Veeron Technologies Logo">
+                    </a>
+                    <p>Building digital assets that empower businesses to grow, innovate, and succeed. Enterprise systems designed for modern scaling.</p>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com" target="_blank" class="social-link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://instagram.com" target="_blank" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="mailto:info@veerontechnologies.com" class="social-link" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                <!-- Col 2 -->
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Company</a></li>
+                        <li><a href="services.html">Services & Solutions</a></li>
+                        <li><a href="portfolio.html">Client Portfolio</a></li>
+                        <li><a href="teams.html">Team</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- Col 3 -->
+                <div class="footer-col">
+                    <h4>Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Custom Software</a></li>
+                        <li><a href="services.html">ERP Solutions</a></li>
+                        <li><a href="services.html">Billing Platforms</a></li>
+                        <li><a href="services.html">Mobile Development</a></li>
+                        <li><a href="services.html">SEO & PPC Marketing</a></li>
+                    </ul>
+                </div>
+                <!-- Col 4 -->
+                <div class="footer-col">
+                    <h4>Stay Updated</h4>
+                    <p class="newsletter-desc">Subscribe to our newsletter for insights on enterprise tech scaling.</p>
+                    <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed successfully!'); this.reset();">
+                        <input type="email" placeholder="Your Email Address" required aria-label="Email Address">
+                        <button type="submit" aria-label="Subscribe">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Veeron Technologies. All Rights Reserved.</p>
+                <ul class="footer-bottom-links">
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+     <a href="https://wa.me/917903949807?text=Can%20I%20get%20more%20information%20about%20your%20services%3F%20I%20need%20for%20my%20business." class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <div class="whatsapp-pulse"></div>
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+    <!-- Scroll To Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript logic (Form validation, Google Apps Script submission, Query parser) -->
+    <script>
+        // Loading screen removed — no overlay to hide
+
+        // 2. Navigation Toggle for Mobile devices
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        navToggle.addEventListener('click', () => {
+            navToggle.classList.toggle('open');
+            navLinks.classList.toggle('open');
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navToggle.classList.remove('open');
+                navLinks.classList.remove('open');
+            });
+        });
+
+        // 3. Sticky Navbar effect on Scroll
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // 4. URL parameters parsing helper to pre-fill inputs
+        function checkURLParameters() {
+            const params = new URLSearchParams(window.location.search);
+            const messageInput = document.getElementById('messageText');
+            const contactForSelect = document.getElementById('contactFor');
+            
+            const serviceParam = params.get('service');
+            if (serviceParam) {
+                const decodedService = decodeURIComponent(serviceParam);
+                
+                // Pre-select in dropdown if it matches
+                let matched = false;
+                for (let option of contactForSelect.options) {
+                    if (option.value.toLowerCase() === decodedService.toLowerCase() || option.text.toLowerCase() === decodedService.toLowerCase()) {
+                        contactForSelect.value = option.value;
+                        matched = true;
+                        break;
+                    }
+                }
+                
+                // Fuzzy match fallback
+                if (!matched) {
+                    const lowerService = decodedService.toLowerCase();
+                    if (lowerService.includes('robotix') || lowerService.includes('iot')) {
+                        contactForSelect.value = "Robotix and IoT Lab Setup";
+                        matched = true;
+                    } else if (lowerService.includes('custom') || lowerService.includes('software')) {
+                        contactForSelect.value = "Custom Software Development";
+                        matched = true;
+                    } else if (lowerService.includes('portfolio') || lowerService.includes('website') || lowerService.includes('dynamic')) {
+                        contactForSelect.value = "Dynamic Website / Portfolio Website";
+                        matched = true;
+                    } else if (lowerService.includes('app') || lowerService.includes('mobile')) {
+                        contactForSelect.value = "App Development";
+                        matched = true;
+                    } else if (lowerService.includes('billing') || lowerService.includes('enterprise')) {
+                        contactForSelect.value = "Billing Software for Enterprise";
+                        matched = true;
+                    }
+                }
+                
+                messageInput.value = `I am interested in consulting regarding your "${contactForSelect.value || decodedService}" services. Let's schedule a meeting to map requirements.`;
+            }
+
+            const projectParam = params.get('project');
+            if (projectParam) {
+                messageInput.value = `I would like to request details and pricing options similar to your portfolio project "${decodeURIComponent(projectParam)}".`;
+                
+                // Map portfolio project names to contact dropdown categories
+                const projectLower = projectParam.toLowerCase();
+                if (projectLower.includes('vanguard') || projectLower.includes('ecosphere')) {
+                    contactForSelect.value = "Dynamic Website / Portfolio Website";
+                } else if (projectLower.includes('apex') || projectLower.includes('optima')) {
+                    contactForSelect.value = "Custom Software Development";
+                } else if (projectLower.includes('omni') || projectLower.includes('health')) {
+                    contactForSelect.value = "App Development";
+                } else if (projectLower.includes('bill') || projectLower.includes('paystream')) {
+                    contactForSelect.value = "Billing Software for Enterprise";
+                }
+            }
+        }
+        checkURLParameters();
+
+        // 5. Contact Form Real-time Validation & Submission logic
+        const form = document.getElementById('contactForm');
+        const submitBtn = document.getElementById('submitBtn');
+
+        const fields = {
+            name: {
+                el: document.getElementById('fullName'),
+                grp: document.getElementById('groupName'),
+                validate: (v) => v.trim().length >= 3
+            },
+            mobile: {
+                el: document.getElementById('mobileNumber'),
+                grp: document.getElementById('groupMobile'),
+                validate: (v) => /^[0-9]{10}$/.test(v.trim())
+            },
+            email: {
+                el: document.getElementById('emailAddress'),
+                grp: document.getElementById('groupEmail'),
+                validate: (v) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim())
+            },
+            company: {
+                el: document.getElementById('companyName'),
+                grp: document.getElementById('groupCompany'),
+                validate: (v) => v.trim().length >= 1
+            },
+            service: {
+                el: document.getElementById('contactFor'),
+                grp: document.getElementById('groupContactFor'),
+                validate: (v) => v !== ""
+            },
+            message: {
+                el: document.getElementById('messageText'),
+                grp: document.getElementById('groupMessage'),
+                validate: (v) => v.trim().length >= 1
+            }
+        };
+
+        // Input listeners for real-time validation clearing
+        Object.keys(fields).forEach(key => {
+            const field = fields[key];
+            const eventName = field.el.tagName === 'SELECT' ? 'change' : 'input';
+            field.el.addEventListener(eventName, () => {
+                if (field.validate(field.el.value)) {
+                    field.grp.classList.remove('invalid');
+                }
+            });
+        });
+
+        form.addEventListener('submit', async (event) => {
+            event.preventDefault();
+
+            // Validate all fields first
+            let isValid = true;
+            Object.keys(fields).forEach(key => {
+                const field = fields[key];
+                if (!field.validate(field.el.value)) {
+                    field.grp.classList.add('invalid');
+                    isValid = false;
+                } else {
+                    field.grp.classList.remove('invalid');
+                }
+            });
+
+            if (!isValid) return;
+
+            // Submit loading animation state
+            submitBtn.disabled = true;
+            const originalBtnHTML = submitBtn.innerHTML;
+            submitBtn.innerHTML = `<span>Submitting Request...</span> <i class="fa-solid fa-spinner fa-spin"></i>`;
+
+            // Prepare payloads
+            const payload = {
+                Name: fields.name.el.value.trim(),
+                Mobile: fields.mobile.el.value.trim(),
+                Email: fields.email.el.value.trim(),
+                Company: fields.company.el.value.trim(),
+                Service: fields.service.el.value,
+                Message: fields.message.el.value.trim()
+            };
+
+            // GOOGLE SHEET APP SCRIPT CONNECTION URL
+            // Replace with your active Google Apps Script Web App Endpoint.
+            const GAS_URL = "https://script.google.com/macros/s/AKfycbzXXXXXXXXXXXXX/exec";
+
+            try {
+                // Fetch call to submission endpoint
+                const response = await fetch(GAS_URL, {
+                    method: 'POST',
+                    mode: 'no-cors', // standard workaround for Google Apps Script cross-origin
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(payload)
+                });
+
+                // Show success popup modal
+                showModal(
+                    true,
+                    "Submission Successful",
+                    "Thank you for contacting Veeron Technologies. Our team will contact you shortly."
+                );
+                form.reset();
+
+            } catch (err) {
+                console.error("Submission failed: ", err);
+                // Show error popup modal
+                showModal(
+                    false,
+                    "Submission Failed",
+                    "There was an error routing your request. Please try again, or contact us directly at info@veerontechnologies.com."
+                );
+            } finally {
+                // Restore button status
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = originalBtnHTML;
+            }
+        });
+
+        // 6. Popup Alert Modal Utilities
+        const alertModal = document.getElementById('alertModal');
+        const alertIcon = document.getElementById('alertIcon');
+        const alertTitle = document.getElementById('alertTitle');
+        const alertDescription = document.getElementById('alertDescription');
+
+        function showModal(isSuccess, title, desc) {
+            alertIcon.className = 'alert-modal-icon';
+            if (isSuccess) {
+                alertIcon.classList.add('success', 'fa-regular', 'fa-circle-check');
+            } else {
+                alertIcon.classList.add('error', 'fa-regular', 'fa-circle-xmark');
+            }
+            alertTitle.innerText = title;
+            alertDescription.innerText = desc;
+            alertModal.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeAlertModal() {
+            alertModal.classList.remove('open');
+            document.body.style.overflow = 'auto';
+        }
+
+        function closeAlertModalOverlay(event) {
+            if (event.target === alertModal) {
+                closeAlertModal();
+            }
+        }
+
+        // 7. Scroll To Top widget visibility
+        const scrollTopBtn = document.getElementById('scrollTop');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 400) {
+                scrollTopBtn.classList.add('show');
+            } else {
+                scrollTopBtn.classList.remove('show');
+            }
+        });
+
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+                /*
+                ========================================================================
+                GOOGLE APPS SCRIPT WEB APP BACKEND GUIDE:
+                To store these submissions in a Google Sheet, and to expose the sheet data
+                as JSON for client-side fetching, follow these steps:
+        
+                1. Open your target Google Sheet.
+                2. Set Column headers in the first row:
+                     A = Timestamp
+                     B = Name
+                     C = Mobile
+                     D = Email
+                     E = Company Name
+                     F = Service
+                     G = Message
+                3. Click "Extensions" -> "Apps Script" in your menu.
+                4. Copy-paste the script block below into the Apps Script editor.
+
+                ------------------------------------
+                // Accept POST submissions and append to sheet
+                function doPost(e) {
+                    try {
+                        var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+                        var data = JSON.parse(e.postData.contents);
+
+                        var timestamp = new Date();
+                        var name = data.Name;
+                        var mobile = data.Mobile;
+                        var email = data.Email;
+                        var company = data.Company;
+                        var service = data.Service || "";
+                        var message = data.Message;
+
+                        sheet.appendRow([timestamp, name, mobile, email, company, service, message]);
+
+                        return ContentService.createTextOutput(JSON.stringify({ "result": "success" }))
+                                                                 .setMimeType(ContentService.MimeType.JSON)
+                                                                 .setHeader('Access-Control-Allow-Origin', '*');
+                    } catch (err) {
+                        return ContentService.createTextOutput(JSON.stringify({ "result": "error", "error": err.toString() }))
+                                                                 .setMimeType(ContentService.MimeType.JSON)
+                                                                 .setHeader('Access-Control-Allow-Origin', '*');
+                    }
+                }
+
+                // Provide a GET endpoint that returns all rows as JSON
+                function doGet(e) {
+                    try {
+                        var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+                        var data = sheet.getDataRange().getValues(); // includes header row
+                        var headers = data.shift(); // remove header row
+                        var rows = data.map(function(r) {
+                            var obj = {};
+                            headers.forEach(function(h, i) { obj[h] = r[i]; });
+                            return obj;
+                        });
+
+                        return ContentService
+                                         .createTextOutput(JSON.stringify({"result":"success","rows":rows}))
+                                         .setMimeType(ContentService.MimeType.JSON)
+                                         .setHeader('Access-Control-Allow-Origin', '*');
+                    } catch (err) {
+                        return ContentService.createTextOutput(JSON.stringify({ "result": "error", "error": err.toString() }))
+                                                                 .setMimeType(ContentService.MimeType.JSON)
+                                                                 .setHeader('Access-Control-Allow-Origin', '*');
+                    }
+                }
+                ------------------------------------
+
+                5. Click "Deploy" -> "New Deployment".
+                6. Select type "Web App".
+                7. Set:
+                     - Execute as: "Me"
+                     - Who has access: "Anyone"
+                8. Click "Deploy", authorize permissions, and copy the "Web app URL".
+                9. Paste that copied Web App URL into the "GAS_URL" variable in contact.html.
+
+                Client-side: to fetch submissions as JSON, call the deployed web app URL via GET.
+                Example (browser):
+                    fetch('<WEB_APP_URL>')
+                        .then(r => r.json())
+                        .then(data => console.log(data.rows));
+                ========================================================================
+                */
+    </script>
+</body>
+</html>

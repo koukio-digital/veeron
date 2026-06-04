@@ -1,0 +1,45 @@
+ <!-- Testimonials Slider Section -->
+    <section class="section-padding testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge">Client Reviews</span>
+                <h2>What Partners Say</h2>
+                <p>Discover how we've helped enterprises streamline operations and scale revenue.</p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-slide active">
+                    <i class="fa-solid fa-quote-left testimonial-icon"></i>
+                    <p class="testimonial-text">"Veeron Technologies completely overhauled our corporate ERP system. The operational efficiency gains were noticeable within the first 30 days. Their engineering quality is state-of-the-art."</p>
+                    <div class="testimonial-author">
+                        <h5>Aarav Mehta</h5>
+                        <span>Director of Operations, Zenith Global</span>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="testimonial-slide">
+                    <i class="fa-solid fa-quote-left testimonial-icon"></i>
+                    <p class="testimonial-text">"The billing platform they designed handles thousands of offline sales transactions per hour without a glitch. Post-deployment support is responsive and professional."</p>
+                    <div class="testimonial-author">
+                        <h5>Sarah Jenkins</h5>
+                        <span>CTO, PrimeRetail Enterprises</span>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="testimonial-slide">
+                    <i class="fa-solid fa-quote-left testimonial-icon"></i>
+                    <p class="testimonial-text">"Their search engine optimization and digital marketing roadmap doubled our inbound leads in six months. They understand how tech drives sales growth."</p>
+                    <div class="testimonial-author">
+                        <h5>Kabir Sharma</h5>
+                        <span>VP of Growth, FinTech Assets Corp</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-controls">
+                <button class="testimonial-btn" id="prevTestimonial" aria-label="Previous Testimonial"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="testimonial-btn" id="nextTestimonial" aria-label="Next Testimonial"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>

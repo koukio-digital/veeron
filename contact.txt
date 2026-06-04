@@ -1,0 +1,80 @@
+Timestamp	Name	Mobile	Email	Company	Service	Message
+
+# Local placeholder for contact submissions.
+# The production flow uses a Google Apps Script (Web App) to append submissions to a Google Sheet.
+# Below is a ready-to-deploy Apps Script (copy into Extensions → Apps Script) that provides:
+#  - doPost(e): accepts JSON POST payloads and appends a new row to the active sheet
+#  - doGet(e): returns all rows as JSON (useful for client-side fetching / admin views)
+
+/* Google Apps Script (Apps Script / Code.gs)
+
+function doPost(e) {
+	try {
+		var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+		var data = JSON.parse(e.postData.contents);
+
+		var timestamp = new Date();
+		var name = data.Name || '';
+		var mobile = data.Mobile || '';
+		var email = data.Email || '';
+		var company = data.Company || '';
+		var service = data.Service || '';
+		var message = data.Message || '';
+
+		sheet.appendRow([timestamp, name, mobile, email, company, service, message]);
+
+		return ContentService
+			.createTextOutput(JSON.stringify({ result: 'success' }))
+			.setMimeType(ContentService.MimeType.JSON)
+			.setHeader('Access-Control-Allow-Origin', '*');
+	} catch (err) {
+		return ContentService
+			.createTextOutput(JSON.stringify({ result: 'error', error: err.toString() }))
+			.setMimeType(ContentService.MimeType.JSON)
+			.setHeader('Access-Control-Allow-Origin', '*');
+	}
+}
+
+function doGet(e) {
+	try {
+		var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+		var rows = sheet.getDataRange().getValues(); // includes header row if present
+		var headers = rows.length > 0 ? rows[0] : [];
+		if (headers.length) rows.shift(); // remove header
+
+		var data = rows.map(function(r) {
+			var obj = {};
+			headers.forEach(function(h, i) { obj[h] = r[i]; });
+			return obj;
+		});
+
+		return ContentService
+			.createTextOutput(JSON.stringify({ result: 'success', rows: data }))
+			.setMimeType(ContentService.MimeType.JSON)
+			.setHeader('Access-Control-Allow-Origin', '*');
+	} catch (err) {
+		return ContentService
+			.createTextOutput(JSON.stringify({ result: 'error', error: err.toString() }))
+			.setMimeType(ContentService.MimeType.JSON)
+			.setHeader('Access-Control-Allow-Origin', '*');
+	}
+}
+
+*/
+
+# Usage notes:
+# 1) In the target Google Sheet set the first row headers to:
+#    Timestamp	Name	Mobile	Email	Company	Service	Message
+# 2) In Apps Script, deploy as "Web App" (Execute as: Me, Who has access: Anyone).
+# 3) Use the provided Web App URL as GAS_URL in `contact.html` for submissions.
+# 4) Example client POST payload (JSON):
+#    {
+#      "Name":"Vikram Mehta",
+#      "Mobile":"9876543210",
+#      "Email":"vikram@company.com",
+#      "Company":"Zenith Global Enterprises",
+#      "Service":"App Development",
+#      "Message":"Interested in a cross-platform mobile app."
+#    }
+
+# 5) For local testing, append rows to this file manually or use the deployed Web App.
